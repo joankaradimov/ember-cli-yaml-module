@@ -1,0 +1,31 @@
+{
+  "name": "ember-cli-yaml-module",
+  "version": "0.0.1",
+  "description": "Import YAML files into your ember-cli app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joankaradimov/ember-cli-yaml-module.git"
+  },
+  "keywords": [
+    "ember-addon",
+    "ember",
+    "yaml",
+    "es6",
+    "modules"
+  ],
+  "author": "Joan Karadimov <joan.karadimov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joankaradimov/ember-cli-yaml-module/issues"
+  },
+  "homepage": "https://github.com/joankaradimov/ember-cli-yaml-module",
+  "devDependencies": {},
+  "dependencies": {
+    "broccoli-json-module": "0.0.2",
+    "broccoli-yaml": "0.0.3"
+  }
+}
