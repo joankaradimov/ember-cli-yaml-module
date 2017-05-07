@@ -1,7 +1,7 @@
 /* jshint node: true */
 'use strict';
 
-var Filter = require('broccoli-filter');
+var Filter = require('broccoli-persistent-filter');
 var Yaml = require('js-yaml');
 var merge = require('lodash.merge');
 
