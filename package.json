@@ -25,7 +25,8 @@
   "homepage": "https://github.com/joankaradimov/ember-cli-yaml-module",
   "devDependencies": {},
   "dependencies": {
-    "broccoli-json-module": "0.0.2",
-    "broccoli-yaml": "0.0.3"
+    "broccoli-filter": "^1.2.4",
+    "js-yaml": "^3.7.0",
+    "lodash.merge": "^4.6.0"
   }
 }
