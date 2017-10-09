@@ -3,7 +3,6 @@
 
 var Filter = require('broccoli-persistent-filter');
 var Yaml = require('js-yaml');
-var merge = require('lodash.merge');
 
 YamlModule.prototype = Object.create(Filter.prototype);
 YamlModule.prototype.constructor = YamlModule;
@@ -15,7 +14,7 @@ function YamlModule(inputTree, options) {
     return new YamlModule(inputTree, options);
   }
 
-  this.options = merge({ space: 2 }, options);
+  this.options = Object.assign({ space: 2 }, options);
 
   Filter.call(this, inputTree, {
     annotation: this.options.annotation
